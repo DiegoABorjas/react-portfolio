@@ -1,5 +1,6 @@
 import React from "react"
 import githubIcon from "../assets/icons/github.png"
+import linkedIn from "../assets/icons/linkedin.png"
 
 export default function Footer() {
     return (
@@ -9,6 +10,9 @@ export default function Footer() {
                 &copy; Diego Borjas
                 <a href="https://github.com/DiegoABorjas" target="_blank" rel="noreferrer noopener" >
                 <img className="max-w-sm max-h-7" src={githubIcon} alt="github icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/diego-borjas-gonzalez-dev/" target="_blank" rel="noreferrer noopener" >
+                <img className="max-w-sm max-h-7" src={linkedIn} alt="github icon" />
                 </a>
             </span>
         </footer>
