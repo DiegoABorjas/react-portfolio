@@ -1,12 +1,12 @@
-import picture from "../assets/picture/diego.jpg" 
+import picture from "../assets/pictures/diego.jpg" 
 
 export default function HomePage() {
     return (
-        <main className="mx-80" >
-            <h1 className="mb-[0.5em] text-2xl font-bold md:text-4xl text-center " >Hi there! I'm Diego.</h1>
-            <section className="flex gap-12 my-12">
-                <img className="max-w-lg max-h-96" src={picture} alt="" />
-                <div className="flex-column text-lg">
+        <main className="mx-10 md:mx-40">
+            <h1 className="my-8 mb-[0.5em] text-2xl font-bold md:text-4xl text-center text-[var(--accent-color)]" >Hi there! I'm Diego.</h1>
+            <section className="flex-column lg:flex gap-12 my-12">
+                <img className="max-h-96 rounded mb-8 " src={picture} alt="" />
+                <div className="text-lg">
                     <p>
                         I'm a Softwar Engineer with great communication skills 
                         and multiple years of experience providing technical support, that enjoys

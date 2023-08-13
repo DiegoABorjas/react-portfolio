@@ -4,5 +4,9 @@
 
 :root {
     --primary-color: #dc3545;
-    --hover-color: #00a8e1;
+    --accent-color: #00a8e1;
+}
+
+body {
+    background-color: black;
 }

@@ -65,7 +65,7 @@ export default function ContactPage() {
                     </div>
                     <div className="flex justify-center">
                         <button
-                        className=" px-8 py-2 bg-gray-500 rounded-full hover:bg-[var(--hover-color)]"
+                        className=" px-8 py-2 bg-gray-500 rounded-full hover:bg-[var(--accent-color)]"
                         type="button"
                         onClick={handleFormSubmit}
                         onChange={handleInputChange}
