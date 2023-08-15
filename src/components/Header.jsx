@@ -8,7 +8,7 @@ export default function Header() {
             <ul className="text-white flex gap-4 text-xl">
                 <a className="hover:text-[var(--accent-color)]" href="projects"><li>Projects</li></a>
                 <a className="hover:text-[var(--accent-color)]" href="contact"><li>Contact</li></a>
-                <a className="hover:text-[var(--accent-color)]" href="https://docs.google.com/document/d/1Bm99ElDYpoSvRStKzOjeEcZxkRSWrEnNqysELY7C0TI/edit?usp=sharing"><li>Resume</li></a>
+                <a className="hover:text-[var(--accent-color)]" href="https://docs.google.com/document/d/1Bm99ElDYpoSvRStKzOjeEcZxkRSWrEnNqysELY7C0TI/edit?usp=sharing" target="_blank" rel="noreferrer noopener"><li>Resume</li></a>
             </ul>
         </header>
         </>
