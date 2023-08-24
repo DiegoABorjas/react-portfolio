@@ -7,6 +7,7 @@ import weather from "../assets/pictures/weather.jpg"
 import techBlog from "../assets/pictures/techblog.jpg"
 import yumYard from "../assets/pictures/yum-yard.png"
 import sportsBud from "../assets/pictures/sportsbud.jpg"
+import bookSearch from "../assets/pictures/booksearch.gif"
 
 export default function ProjectsPage() {
     const projects = [
@@ -18,11 +19,11 @@ export default function ProjectsPage() {
             deployed: "https://yums-4103a315e67a.herokuapp.com/",
         },
         {
-            title: "note-taker",
-            description: "An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
-            image: noteTaker,
-            github: "https://github.com/DiegoABorjas/11-note-taker",
-            deployed: "https://my-notes.herokuapp.com/",
+            title: "book-search-engine",
+            description: "This application allows users to search for new books from Google's Book API. Users can log in to save the book they would like to read, as well as to remove the books from their library.",
+            image: bookSearch,
+            github: "https://github.com/DiegoABorjas/book-search-engine",
+            deployed: "https://mern-books-search-d045b6b4d644.herokuapp.com/",
         },
         {
             title: "SportsBud",
