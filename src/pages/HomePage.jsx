@@ -14,16 +14,18 @@ export default function HomePage() {
                     </p>
                     <br /> 
                     <p>
-                        I obtained my Bachelors in Computer Engineering in my home country Venezuela back in 2014 and then life 
-                        brought me to the Kansas City area in 2016 where I have been working as an Analyst providing technical 
-                        support for multiple large companies like AMC Theatres, ScriptPro, Cerner, and currently Oracle. 
+                        I obtained my Bachelors in Computer Engineering in my home country Venezuela back in 2015 
+                        and then life brought me to the Kansas City area in 2016 where I have been working as an 
+                        Analyst providing technical support for multiple large companies like AMC Theatres, 
+                        ScriptPro, Cerner, and currently Oracle. 
                     </p> 
                     <br /> 
                     <p>
-                        In 2023, I completed a certificate in full-stack web development from the 
+                        Recently in 2023, I completed a certificate in full-stack web development from the 
                         University of Kansas. I have extensive knowledge of HTML, CSS, JavaScript, Node.js, 
-                        and React. I am passionate about software development, and will continue to explore 
-                        and learn new technologies in the industry.
+                        and React. In the past I have also worked with Java and Angular. I am passionate about 
+                        software development, and I am excited to continue learning new technologies in the 
+                        industry.
                     </p>  
                 </div>      
             </section>
