@@ -4,7 +4,7 @@ import Project from "../components/Project"
 import noteTaker from "../assets/pictures/note-taker.png"
 import reactmovies from "../assets/pictures/reactmovies.jpg"
 import techBlog from "../assets/pictures/techblog.jpg"
-import yumYard from "../assets/pictures/yum-yard.png"
+import myRestaurant from "../assets/pictures/myrestaurant.png"
 import sportsBud from "../assets/pictures/sportsbud.jpg"
 import bookSearch from "../assets/pictures/booksearch.gif"
 
@@ -18,11 +18,11 @@ export default function ProjectsPage() {
             deployed: "https://react-movies-3ccbeea14f70.herokuapp.com/",
         },
         {
-            title: "Yum Yum Yard",
-            description: "Cafe Management System with a menu displayed for customers, as well as a back-end login for the manager to perform CRUD operations on the menu.",
-            image: yumYard,
-            github: "https://github.com/zamorejake/YumYumYard",
-            deployed: "https://yums-4103a315e67a.herokuapp.com/",
+            title: "My Restaurant",
+            description: "Cafe Management System with a menu displayed for customers and ordering integrated with Stripe, as well as a back-end login for the manager to perform CRUD operations on the menu.",
+            image: myRestaurant,
+            github: "https://github.com/DiegoABorjas/restaurant-app",
+            deployed: "https://my-restaurant-app-d7f65203a1b2.herokuapp.com/",
         },
         {
             title: "book-search-engine",
