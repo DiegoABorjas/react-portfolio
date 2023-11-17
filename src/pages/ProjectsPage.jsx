@@ -4,7 +4,7 @@ import Project from "../components/Project"
 import noteTaker from "../assets/pictures/note-taker.png"
 import reactmovies from "../assets/pictures/reactmovies.jpg"
 import techBlog from "../assets/pictures/techblog.jpg"
-import myRestaurant from "../assets/pictures/myrestaurant.png"
+import myRestaurant from "../assets/pictures/myrestaurant.jpg"
 import sportsBud from "../assets/pictures/sportsbud.jpg"
 import bookSearch from "../assets/pictures/booksearch.gif"
 
