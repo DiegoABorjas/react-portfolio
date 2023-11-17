@@ -1,9 +1,8 @@
-import React from "react"
 import Project from "../components/Project"
 
 //import project images
 import noteTaker from "../assets/pictures/note-taker.png"
-import weather from "../assets/pictures/weather.jpg"
+import reactmovies from "../assets/pictures/reactmovies.jpg"
 import techBlog from "../assets/pictures/techblog.jpg"
 import yumYard from "../assets/pictures/yum-yard.png"
 import sportsBud from "../assets/pictures/sportsbud.jpg"
@@ -11,6 +10,13 @@ import bookSearch from "../assets/pictures/booksearch.gif"
 
 export default function ProjectsPage() {
     const projects = [
+        {
+            title: "React Movies",
+            description: "A movie application where users can search for movies. Create an account and save movies to their Watchlist.",
+            image: reactmovies,
+            github: "https://github.com/DiegoABorjas/react-movies",
+            deployed: "https://react-movies-3ccbeea14f70.herokuapp.com/",
+        },
         {
             title: "Yum Yum Yard",
             description: "Cafe Management System with a menu displayed for customers, as well as a back-end login for the manager to perform CRUD operations on the menu.",
@@ -45,13 +51,6 @@ export default function ProjectsPage() {
             image: noteTaker,
             github: "https://github.com/DiegoABorjas/11-note-taker",
             deployed: "https://my-notes.herokuapp.com/",
-        },
-        {
-            title: "weather-app",
-            description: "A weather app that provides weather outlook for multiple cities.",
-            image: weather,
-            github: "https://github.com/DiegoABorjas/06-weather-dashboard",
-            deployed: "https://diegoaborjas.github.io/06-weather-dashboard/",
         },
     ]
 

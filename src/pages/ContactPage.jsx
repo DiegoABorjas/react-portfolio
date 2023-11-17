@@ -22,7 +22,7 @@ export default function ContactPage() {
         }
     }
 
-    function handleFormSubmit(e) {
+    function handleFormSubmit() {
         
     }
 
